@@ -1,0 +1,6 @@
+ID,Vendor ID,E-Name,C-Name,City,State,Address,Zip,TEL,FAX,TEL2,Contact,TITLE,Email,Remark,Status,Last Modify,Modify Date
+1,0,______,______,FRESNO,CA,Fresno,90001,(   )-   -,(   )-   -,(   )-   -,DU,**,*,,0,10008,7/20/13 9:36
+2,1,General Purchase,__(____),*,NULL,*,____1-____,(___)-1__-____ EXT ____,(_1_)-___-____,(_1_)-___-____ EXT ____,Ellen,,,,0,1,12/1/12 15:16
+3,2,RONGCHENG Return Goods Trush ,__-_____,1,1,rongcheng,_____-1___,(___)-___-____ EXT ___1,(_1_)-___-____,(___)-1__-____ EXT ____,__,8,,,0,1,12/1/12 15:16
+4,3,ADJUST INV.(???)____,.__(__)__,JONNY,D,JONNY,1,(_1_)-___-____ EXT ____,(_1_)-___-____,(_11)-___-____ EXT ____,1,1,1,LOT#ADJUST INV.____,0,1,12/1/12 15:16
+5,4,Farmer Market Cash Purchase(MIN),______(_),1,1,1,1,( 1 )-   -,( 1 )-   -,(  1)-   -,1,1,1,,0,10008,8/18/14 4:19
