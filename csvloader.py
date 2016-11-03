@@ -15,13 +15,28 @@ csv_data = csv.reader(file('Vendor.csv'))
 zipreg = re.compile('././.{4} .{2}:.{2}')
 s = 'x/x/xxxx xx:xx'
 
+# Check duplicate VendorNum, RefNum and Name
+check_dict = {}
+
 # Generate Queries
 for row in csv_data:
 
 	# Vendor Object
 	VendorNum = row[1]
-	RefNum = None
+	prev = check_dict.get(VendorNum)
+	if prev is None:
+		check_dict[VendorNum] = 0
+	else:
+		check_dict[VendorNum] = prev + 1
+		VendorNum = VendorNum + '_' + str(prev)	
+	RefNum = None	
 	Name = row[2]
+	prev = check_dict.get(Name)
+	if prev is None:
+		check_dict[Name] = 0
+	else:
+		check_dict[Name] = prev + 1
+		Name = Name + '_' + str(prev)	
 	Description = row[3]
 	Default_VendorAddress_id = 1
 	Default_VendorContact_id = 1
